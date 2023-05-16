@@ -40,6 +40,17 @@
             zoom: 10
         });
 
+        //creates a marker over durban central
+        new mapboxgl.Marker()
+        .setLngLat([31.0218, -29.8587])
+        .addTo(map);
+
+        //displays a marker over westville
+        new mapboxgl.Marker()
+        .setLngLat([30.9303, -29.8317])
+        .addTo(map);
+
+        
         map.on('load', () => {
             map.addSource('places', {
                 // This GeoJSON contains features that include an "icon"
