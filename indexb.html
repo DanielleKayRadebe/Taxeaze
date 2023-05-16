@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Solar Power Project Beneficiaries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <script
+        src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+
+
+    <link href="https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.css" rel="stylesheet" />
+    <style>
+        body {
+            color: #404040;
+            font: 400 20px/25px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        a {
+            color: #050505;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #101010;
+        }
+
+        .sidebar {
+            position: absolute;
+            width: 33.3333%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            border-right: 1px solid rgba(0, 0, 0, 0.25);
+        }
+
+        .pad2 {
+            padding: 20px;
+        }
+
+        .quiet {
+            color: rgb(10, 9, 9);
+            font-size: 18px;
+        }
+
+        .map {
+            position: absolute;
+            left: 33.3333%;
+            width: 66.6666%;
+            top: 0;
+            bottom: 0;
+        }
+
+        .heading {
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            min-height: 60px;
+            line-height: 60px;
+            padding: 0 10px;
+        }
+
+        .listings {
+            height: 100%;
+            overflow: auto;
+            padding-bottom: 60px;
+        }
+
+        .listings .item {
+            display: block;
+            border-bottom: 1px solid #eee;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .listings .item:last-child {
+            border-bottom: none;
+        }
+
+        .listings .item .title {
+            display: block;
+            color: #06129b;
+            font-weight: 700;
+        }
+
+        .listings .item .title small {
+            font-weight: 400;
+
+        }
+
+        .listings .item.active .title,
+        .listings .item .title:hover {
+            color: #6a0094;
+        }
+
+        .listings .item.active {
+            background-color: #f8f8f8;
+        }
+
+        ::-webkit-scrollbar {
+            width: 20px;
+            height: 3px;
+            border-left: 0;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        ::-webkit-scrollbar-track {
+            background: none;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #040a53;
+            border-radius: 0;
+        }
+
+        .clearfix {
+            display: block;
+        }
+
+        .clearfix:after {
+            content: '.';
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        /* Marker tweaks */
+        .leaflet-popup-close-button {
+            display: none;
+        }
+
+        .leaflet-popup-content {
+            font: 400 20px/25px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+            padding: 0;
+            width: 400px;
+            color: #050505;
+
+        }
+
+        .leaflet-popup-content-wrapper {
+            padding: 0;
+        }
+
+        .leaflet-popup-content h3 {
+            background: #91c949;
+            color: #fff;
+            margin: 0;
+            display: block;
+            padding: 10px;
+            border-radius: 3px 3px 0 0;
+            font-weight: 700;
+            margin-top: -15px;
+        }
+
+        .leaflet-popup-content div {
+            padding: 10px;
+            ;
+        }
+
+        .leaflet-container .leaflet-marker-icon {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="heading">
+            <h1>Find a Route</h1>
+        </div>
+        <div class="search-box">
+            <input type="text" id="search-box" placeholder="Search your location">
+        </div>
+        <div id="listings" class="listings"></div>
+    </div>
+    <div id="map" class="map"></div>
+    <script src='data.js' defer>
+    </script>
+
+</body>
+
+</html>
