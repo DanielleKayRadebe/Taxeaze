@@ -5,46 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taxeaze</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<style>
-    /*container to centre map*/
-    #container {
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
-    #map{
-        height: 80vh;
-        width: 80vw;
-    }
+<div id="map"></div>
 
-    html, body {
-        margin: 0;
-        padding: 0;
-    }
-</style>
+<script src="script.js"></script>
 
-<div id="container">
-    <div id="map"></div>
-</div>
-
-<script>
-    function initMap(){
-        let mapOptions = {
-            center: new google.maps.LatLng(-29.883333, 31.049999),
-            zoom: 12
-        };
-
-        let map = new google.maps.Map(document.getElementById('map'), mapOptions);
-    }
-    window.initMap = initMap;
+<script 
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnWdb0E3VmX2lsZixyf2wsbe6pI57qn64&map_ids=689f9b3e6cf23043&callback=initMap">
 </script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnWdb0E3VmX2lsZixyf2wsbe6pI57qn64&callback=initMap"></script>
 
 </body>
 </html>
