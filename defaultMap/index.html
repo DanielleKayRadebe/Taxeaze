@@ -4,20 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taxease</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Taxeaze</title>
 </head>
 <body>
-    <h1>Fuck</h1>
-    
+
+<style>
+    /*container to centre map*/
+    #container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #map{
+        height: 80vh;
+        width: 80vw;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<div id="container">
     <div id="map"></div>
+</div>
 
-    <script src="script.js"></script>
+<script>
+    function initMap(){
+        let mapOptions = {
+            center: new google.maps.LatLng(-29.883333, 31.049999),
+            zoom: 12
+        };
 
-    <script src="https://maps.googleapis.com/maps/api/js?
-    key=AIzaSyB5QFSBj_MU_Iz0B8CI2skF26nIuwLH93I&
-    map_ids=689f9b3e6cf23043&
-    callback=initMap"></script>
+        let map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    }
+    window.initMap = initMap;
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnWdb0E3VmX2lsZixyf2wsbe6pI57qn64&callback=initMap"></script>
 
 </body>
 </html>
