@@ -1,8 +1,16 @@
+
+/**
+ * Mapbox API Access token added by Ryshan Ramlall 
+ * Account owner 
+ * Need to pay attention to the pricing if it the amount of user increases substantially
+ * Currently only using the Map from the API 
+ */
 L.mapbox.accessToken =
-  "pk.eyJ1IjoiZGFuaWVsbGVrYXkiLCJhIjoiY2xocWE5MDhxMXlwODNlb2Q3YXN5Nm5oYSJ9.DcZ5eE4st86HnUjsNBI9Vg";
+"pk.eyJ1Ijoic3R1cnRpdW0iLCJhIjoiY2tnaHd6cHZjMDAxMzJybG9sM3huOTVpZCJ9.FPujWyjCdiqERPlvNhlU5w";
 
 mapboxgl.accessToken =
-  "pk.eyJ1IjoiZGFuaWVsbGVrYXkiLCJhIjoiY2xocWE5MDhxMXlwODNlb2Q3YXN5Nm5oYSJ9.DcZ5eE4st86HnUjsNBI9Vg";
+"pk.eyJ1Ijoic3R1cnRpdW0iLCJhIjoiY2tnaHd6cHZjMDAxMzJybG9sM3huOTVpZCJ9.FPujWyjCdiqERPlvNhlU5w";
+
 
 //Navigation controls. For finding directions//
 
