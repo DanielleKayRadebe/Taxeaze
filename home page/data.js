@@ -40,6 +40,171 @@ var geojson = {
         image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
       },
     },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.02527778, -29.85661111],
+      },
+      properties: {
+        title: "Workshop rank, Substation 2, Free taxi",
+        description: "Durban Central Area",
+        routes: "Takes you to English Market",
+        landmarks: "N/A",
+        geolocation: "-29.85661111, 31.02527778",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.019739, -29.853105],
+      },
+      properties: {
+        title: "Soldiers Way Taxi Rank",
+        description: "Durban Central Area",
+        routes: "English Market",
+        landmarks: "N/A",
+        geolocation: "-29.853105, 31.019739",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.012244, -29.855863],
+      },
+      properties: {
+        title: "R102 04 Market Road",
+        description: "Durban Central Area",
+        routes: "N/A",
+        landmarks: "One of the main market entrances",
+        geolocation: "-29.855863, 31.012244",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.011273, -29.858300],
+      },
+      properties: {
+        title: "Rank no. 95",
+        description: "Durban Central Area",
+        routes: "N/A",
+        landmarks: "Near English market sign",
+        geolocation: "-29.858300, 31.011273",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.010411, -29.857278],
+      },
+      properties: {
+        title: "Scala Rank",
+        description: "Durban Central Area",
+        routes: "N/A",
+        landmarks: "N/A",
+        geolocation: "-29.857278, 31.010411",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.996755, -29.855856],
+      },
+      properties: {
+        title: "Unnamed Rank",
+        description: "Durban Central Area",
+        routes: "N/A",
+        landmarks: "N/A",
+        geolocation: "-29.855856, 30.996755",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.901346, -29.872902],
+      },
+      properties: {
+        title: "Spar in Escomb",
+        description: "Escomb",
+        routes: "Northdene to Durban Central, Workshop last stop",
+        landmarks: "387 Main Rd, Escombe, Queensburgh, 4093",
+        geolocation: "-29.872902, 30.901346",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.910390, -29.875108],
+      },
+      properties: {
+        title: "Malvern Police Station",
+        description: "Malvern",
+        routes: "N/A",
+        landmarks: "288-282 Main Rd, Escombe, Queensburgh, 4093",
+        geolocation: "-29.875108, 30.910390",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.918938, -29.881410],
+      },
+      properties: {
+        title: "Malvern Bus Stop",
+        description: "Malvern",
+        routes: "Malvern Pick 'n Pay",
+        landmarks: "24 Coronation Rd, Malvern, Queensburgh, 4055",
+        geolocation: "-29.881410, 30.918938",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.925605, -29.879843],
+      },
+      properties: {
+        title: "Food Lovers Market",
+        description: "Malvern",
+        routes: "N/A",
+        landmarks: "59-79 Sarnia Rd, Malvern, Queensburgh, 4055",
+        geolocation: "-29.879843, 30.925605",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.939078, -29.887783],
+      },
+      properties: {
+        title: "Unnamed Stop",
+        description: "Malvern",
+        routes: "N/A",
+        landmarks: "1418 Sarnia Rd, Mount Vernon, Durban, 4094",
+        geolocation: "-29.887783, 30.939078",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
   ],
 };
 
@@ -150,7 +315,7 @@ searchBox.addEventListener("keyup", function (e) {
     var description = locale.feature.properties.description
       ? locale.feature.properties.description.toLowerCase()
       : "";
-    var progress = locale.feature.properties.routes
+    var routes = locale.feature.properties.routes
       ? locale.feature.properties.routes.toLowerCase()
       : "";
     var geolocation = locale.feature.properties.geolocation
