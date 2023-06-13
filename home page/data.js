@@ -22,6 +22,8 @@ mapboxgl.accessToken =
  * <a href="https://www.flaticon.com/free-icons/mini-bus" title="mini bus icons">Mini bus icons created by Vectors Tank - Flaticon</a>
  */
 
+// ToDo: Move Data to a separate file
+
 var geojson = {
   type: "FeatureCollection",
   features: [
@@ -202,6 +204,261 @@ var geojson = {
         routes: "N/A",
         landmarks: "1418 Sarnia Rd, Mount Vernon, Durban, 4094",
         geolocation: "-29.887783, 30.939078",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.943274, -29.890030],
+      },
+      properties: {
+        title: "Limnos square",
+        description: "Bellair",
+        routes: "N/A",
+        landmarks: "1297-1319 M10, Mount Vernon, Durban, 4094",
+        geolocation: "-29.890030, 30.943274",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.949141, -29.886855],
+      },
+      properties: {
+        title: "Bellair primary school",
+        description: "Bellair",
+        routes: "N/A",
+        landmarks: "M10, Bellair, Durban, 4006",
+        geolocation: "-29.886855, 30.949141",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.950380, -29.886499],
+      },
+      properties: {
+        title: "Bellair station",
+        description: "Near Flats",
+        routes: "N/A",
+        landmarks: "945 Sarnia Rd, Bellair, Durban, 4006",
+        geolocation: "-29.886499, 30.950380",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.959216, -29.896098],
+      },
+      properties: {
+        title: "Bus stop and gym park",
+        description: "Popular stop",
+        routes: "N/A",
+        landmarks: "230 Hillside Rd, Bellair, Durban, 4006",
+        geolocation: "-29.896098, 30.959216",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.962991, -29.901137],
+      },
+      properties: {
+        title: "Seaview congregational church",
+        description: "N/A",
+        routes: "N/A",
+        landmarks: "544 Sarnia Rd, Sea View, Durban, 4094",
+        geolocation: "-29.901137, 30.962991",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.974778, -29.903222],
+      },
+      properties: {
+        title: "Phambili High School",
+        description: "Sarnia Road",
+        routes: "N/A",
+        landmarks: "258-244 Sarnia Rd, Sea View, Durban, 4094",
+        geolocation: "-29.903222, 30.974778",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.978020, -29.901950],
+      },
+      properties: {
+        title: "Unknown Rank",
+        description: "By the bridge",
+        routes: "Umbilo Road",
+        landmarks: "160-156 Sarnia Rd, Sea View, Durban, 4094",
+        geolocation: "-29.901950, 30.978020",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.977616, -29.901540],
+      },
+      properties: {
+        title: "Train station place after bridge",
+        description: "After bridge",
+        routes: "N/A",
+        landmarks: "08 Folkestone Rd, Sea View, Durban, 4094",
+        geolocation: "-29.901540, 30.977616",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.983201, -29.888878],
+      },
+      properties: {
+        title: "Khayelisha flats",
+        description: "Sarnia Road",
+        routes: "N/A",
+        landmarks: "26-24 Sarnia Rd, Umbilo Industrial, Durban, 4075",
+        geolocation: "-29.888878, 30.983201",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [30.987605, -29.881124],
+      },
+      properties: {
+        title: "Durban Primary School",
+        description: "Umbilo",
+        routes: "N/A",
+        landmarks: "663-703 R102, Umbilo, Berea, 4075",
+        geolocation: "-29.881124, 30.987605",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.0054458, -29.861605],
+      },
+      properties: {
+        title: "Umbilo shell garage",
+        description: "Umbilo",
+        routes: "N/A",
+        landmarks: "N/A",
+        geolocation: "-29.861605,31.0054458",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.009690, -29.860094],
+      },
+      properties: {
+        title: "Esontweni",
+        description: "Old closed down church",
+        routes: "N/A",
+        landmarks: "54 King Dinizulu Rd, Greyville, Durban, 4001",
+        geolocation: "-29.860094, 31.009690",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.010159, -29.859136],
+      },
+      properties: {
+        title: "English Market",
+        description: "Near Bluff Taxi Rank",
+        routes: "N/A",
+        landmarks: "27-37 R102, Greyville, Berea, 4001",
+        geolocation: "-29.859136, 31.010159",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.010560, -29.854723],
+      },
+      properties: {
+        title: "Phoenix Rank",
+        description: "N/A",
+        routes: "N/A",
+        landmarks: "R102, Greyville, Berea, 4001",
+        geolocation: "-29.854723, 31.010560",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.016592, -29.852946],
+      },
+      properties: {
+        title: "KFC on Grey Street",
+        description: "N/A",
+        routes: "N/A",
+        landmarks: "62 Johannes Nkosi St, Durban Central, Durban, 4001",
+        geolocation: "-29.852946, 31.016592",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.021404, -29.853475],
+      },
+      properties: {
+        title: "Sodiers Way Taxi Rank",
+        description: "N/A",
+        routes: "N/A",
+        landmarks: "Soldiers Way, Durban Central, Durban, 4001",
+        geolocation: "-29.853475, 31.021404",
+        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [31.023867, -29.856821],
+      },
+      properties: {
+        title: "Workshop Corner",
+        description: "The Workshop",
+        routes: "N/A",
+        landmarks: "F16 Plaza Building, Denis Hurley St, Durban Central, Durban, 4001",
+        geolocation: "-29.856821, 31.023867",
         image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
       },
     },
