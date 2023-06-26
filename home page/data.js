@@ -54,7 +54,7 @@ var geojson = {
         routes: "Takes you to English Market",
         landmarks: "N/A",
         geolocation: "-29.85661111, 31.02527778",
-        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+        image: "https://theworkshopcentre.co.za/wp-content/uploads/2021/03/Elements-24.png",
       },
     },
     {
@@ -294,7 +294,7 @@ var geojson = {
         routes: "N/A",
         landmarks: "258-244 Sarnia Rd, Sea View, Durban, 4094",
         geolocation: "-29.903222, 30.974778",
-        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+        image: "https://schoolsdigest.co.za/wp-content/uploads/jet-engine-forms/1/2022/07/Screenshot_20220709-121355.png",
       },
     },
     {
