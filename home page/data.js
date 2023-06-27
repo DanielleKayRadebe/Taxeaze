@@ -30,16 +30,19 @@ var geojson = {
     {
       type: "Feature",
       geometry: {
-        type: "Point",
-        coordinates: [31.02419444, -29.86011111],
+        type: "LineString",
+        coordinates: [
+          [30.901346, -29.872902],
+          [30.910390, -29.875108],
+
+        ],
       },
       properties: {
-        title: "Durban Central",
-        description: "Durban Central Area",
-        routes: "None",
-        landmarks: "Schwarma Palace",
-        geolocation: "-29.86011111, 31.02419444",
-        image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
+        title: "route no 1",
+        description: "from northdene to durban",
+        // landmarks: "Schwarma Palace",
+        // geolocation: "-29.86011111, 31.02419444",
+        // image: "https://cdn.24.co.za/files/Cms/General/d/8082/8eedb832797b4ea599400a5dd23804e9.png",
       },
     },
     {

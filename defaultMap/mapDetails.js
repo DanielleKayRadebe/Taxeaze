@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuaWVsbGVrYXlyYWRlYmUiLCJhIjoiY2xqZTVlODhzM
             container: 'map',
             // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
             style: 'mapbox://styles/mapbox/streets-v12',
-            center: [-79.4512, 43.6568],
+            center: [31.02419444, -29.86011111],
             zoom: 13
         });
 
